@@ -1,0 +1,55 @@
+{
+  "version": "3.0",
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  },
+  "timestamp": 1670842781165,
+  "entries": [
+    {
+      "path": "/scripts/lib-franklin.js",
+      "timestamp": 1670328219187
+    },
+    {
+      "path": "/scripts/scripts.js",
+      "timestamp": 1670328219187
+    },
+    {
+      "path": "/styles/styles.css",
+      "timestamp": 1670328219187
+    },
+    {
+      "path": "/styles/favicon.svg",
+      "timestamp": 1670842778176
+    },
+    {
+      "path": "/blocks/header/header.css",
+      "timestamp": 1670842778176
+    },
+    {
+      "path": "/media_11190765a702831d3ee187f9d2d7e7cb180655067.jpeg?width=2000&format=webply&optimize=medium",
+      "timestamp": 1670842778176
+    },
+    {
+      "path": "/media_11190765a702831d3ee187f9d2d7e7cb180655067.jpeg?width=750&format=webply&optimize=medium",
+      "timestamp": 1670842778176
+    },
+    {
+      "path": "/media_11190765a702831d3ee187f9d2d7e7cb180655067.jpeg?width=2000&format=jpeg&optimize=medium",
+      "timestamp": 1670842778176
+    },
+    {
+      "path": "/media_11190765a702831d3ee187f9d2d7e7cb180655067.jpeg?width=750&format=jpeg&optimize=medium",
+      "timestamp": 1670842778176
+    },
+    {
+      "path": "/styles/lazy-styles.css",
+      "timestamp": 1670842778176
+    }
+  ]
+}
