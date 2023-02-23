@@ -568,6 +568,7 @@ export function setup() {
  */
 function init() {
   setup();
+  
   sampleRUM('top');
 
   window.addEventListener('load', () => sampleRUM('load'));
