@@ -2,7 +2,7 @@ version: 1
 indices:
   channels:
     include:
-      - 'franklin/screens/menus/**'
+      - '/franklin/screens/menus/**'
     target: 'franklin/screens/menus/channels'
     properties:
       title:
@@ -19,7 +19,7 @@ indices:
   channel-manifest:
     include:
       - 'franklin/screens/menus/**'
-    target: 'franklin/screens/menus/manifests'
+    target: '/franklin/screens/menus/manifests'
     properties:
       title:
         select: head > meta[property="og:title"]
