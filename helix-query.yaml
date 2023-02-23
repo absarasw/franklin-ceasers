@@ -3,7 +3,7 @@ indices:
   channels:
     include:
       - '/franklin/screens/menus/**'
-    target: 'franklin/screens/menus/channels'
+    target: '/franklin/screens/menus/channels'
     properties:
       title:
         select: head > meta[property="og:title"]
@@ -18,7 +18,7 @@ indices:
           parseTimestamp(headers['last-modified'], 'ddd, DD MMM YYYY hh:mm:ss GMT')
   channel-manifest:
     include:
-      - 'franklin/screens/menus/**'
+      - '/franklin/screens/menus/**'
     target: '/franklin/screens/menus/manifests'
     properties:
       title:
