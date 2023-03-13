@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '14'
       - name: Authenticate with private NPM package
-        run: echo "@adobe:registry=https://npm.pkg.github.com/ \/n //npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+        run: echo "@adobe:registry=https://npm.pkg.github.com/ \n //npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - run: npm install
       - name: Generate Manifests
         run: npm run generate-manifest helixManifest="/franklin/screens/menus/manifests"
