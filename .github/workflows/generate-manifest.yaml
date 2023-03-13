@@ -1,0 +1,40 @@
+name: Generate manifest for franklin channels
+
+on:
+  repository_dispatch:
+    types:
+      - resource-published
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Sleep for 90 seconds assuming helix index will be updated before
+        run: sleep 90s
+        shell: bash
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: npm install
+      - name: Generate Manifests
+        run: npm run generate-manifest helixManifest="/franklin/screens/menus/manifests"
+      - name: Commit files # transfer the generated manifest files back into the repository
+        run: |
+          git config --local user.name  ${{ github.actor }}
+          git add .
+          git commit -m "Generating manifests"
+      - name: Push changes  # push the generated manifest files to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
+
+
+
+
+

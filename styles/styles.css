@@ -52,7 +52,7 @@ body {
   font-family: var(--body-font-family);
   line-height: 1.6;
   display: none;
-  background: rgb(0, 0, 0);
+  background: #000;
   color: white;
 }
 
@@ -368,7 +368,7 @@ main .section.highlight {
 }
 
 .out-of-stock {
-  color: rgb(255, 0, 0) !important;
+  color: #f00 !important;
 }
 
 .menu-item {

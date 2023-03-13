@@ -2,7 +2,7 @@ import {
   sampleRUM,
   buildBlock,
   loadHeader,
-  loadFooter,
+  // loadFooter,
   decorateButtons,
   decorateIcons,
   decorateSections,
@@ -96,7 +96,7 @@ async function loadLazy(doc) {
   if (hash && element) element.scrollIntoView();
 
   loadHeader(doc.querySelector('header'));
-  //loadFooter(doc.querySelector('footer'));
+  // loadFooter(doc.querySelector('footer'));
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   addFavIcon(`${window.hlx.codeBasePath}/styles/favicon.svg`);
