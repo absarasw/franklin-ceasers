@@ -21,8 +21,6 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - name: Generate Manifests
         run: npm run generate-manifest helixManifest="/franklin/screens/menus/manifests"
       - name: Commit files # transfer the generated manifest files back into the repository
