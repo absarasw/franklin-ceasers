@@ -26,6 +26,7 @@ jobs:
       - name: Commit files # transfer the generated manifest files back into the repository
         run: |
           git config --local user.name  ${{ github.actor }}
+          git config --local user.email "<>"
           git add .
           git commit -m "Generating manifests"
       - name: Push changes  # push the generated manifest files to your repo
