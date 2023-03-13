@@ -1,0 +1,63 @@
+{
+  "version": "3.0",
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  },
+  "timestamp": 1678734456627,
+"entries": [
+{
+"path": "/franklin/screens/menus/caesars-cafe-americano-menu",
+"timestamp": 1677144055000
+},
+{
+"path": "/scripts/lib-franklin.js",
+"timestamp": 1678726488000
+},
+{
+"path": "/scripts/scripts.js",
+"timestamp": 1678726488000
+},
+{
+"path": "/styles/styles.css",
+"timestamp": 1678726488000
+},
+{
+"path": "/media_12f5eaa02fd5c76f06fb480b932ac3b832fc306b9.png?width=750&format=png&optimize=medium",
+"hash": "12f5eaa02fd5c76f06fb480b932ac3b832fc306b9"
+},
+{
+"path": "/media_17b31f594c40d330bb701a52493f473d2db3363f1.jpeg?width=750&format=jpeg&optimize=medium",
+"hash": "17b31f594c40d330bb701a52493f473d2db3363f1"
+},
+{
+"path": "/media_103a083b9ecd2f28eb0bf213e0733f022708f318c.jpeg?width=750&format=jpeg&optimize=medium",
+"hash": "103a083b9ecd2f28eb0bf213e0733f022708f318c"
+},
+{
+"path": "/media_199b2d430aadda68bdb7d1b4bbbcc5500a120219e.jpeg?width=750&format=jpeg&optimize=medium",
+"hash": "199b2d430aadda68bdb7d1b4bbbcc5500a120219e"
+},
+{
+"path": "/media_1216e30280a61e10ebeca61fce3fcac757c11cd1f.png?width=750&format=png&optimize=medium",
+"hash": "1216e30280a61e10ebeca61fce3fcac757c11cd1f"
+},
+{
+"path": "/blocks/header/header.css",
+"timestamp": 1675935322000
+},
+{
+"path": "/styles/lazy-styles.css",
+"timestamp": 1675935324000
+},
+{
+"path": "/franklin/screens/menus/pos-data.json",
+"timestamp": 1678703360000
+}
+]
+}
