@@ -9,11 +9,11 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1678778366481,
+  "timestamp": 1678786612723,
 "entries": [
 {
 "path": "/franklin/screens/menus/ceasers-menu",
-"timestamp": 1677649383000
+"timestamp": 1678779498000
 },
 {
 "path": "/scripts/lib-franklin.js",
