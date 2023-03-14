@@ -9,11 +9,11 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1678734456627,
+  "timestamp": 1678778366099,
 "entries": [
 {
 "path": "/franklin/screens/menus/caesars-cafe-americano-menu",
-"timestamp": 1677144055000
+"timestamp": 1678776654000
 },
 {
 "path": "/scripts/lib-franklin.js",
@@ -46,18 +46,6 @@
 {
 "path": "/media_1216e30280a61e10ebeca61fce3fcac757c11cd1f.png?width=750&format=png&optimize=medium",
 "hash": "1216e30280a61e10ebeca61fce3fcac757c11cd1f"
-},
-{
-"path": "/blocks/header/header.css",
-"timestamp": 1675935322000
-},
-{
-"path": "/styles/lazy-styles.css",
-"timestamp": 1675935324000
-},
-{
-"path": "/franklin/screens/menus/pos-data.json",
-"timestamp": 1678703360000
 }
 ]
 }
