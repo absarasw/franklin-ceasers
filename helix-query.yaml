@@ -53,11 +53,11 @@ indices:
         select: body div[class]
         values: |
           attribute(el, 'className')
-      inline-images:
+      inlineImages:
         select: body img
         values: |
           attribute(el, 'src')
-      media-blocks:
+      mediaBlocks:
         select: body div:is([class="embed"],[class="image"],[class="video"])
         values: |
           textContent(el)
